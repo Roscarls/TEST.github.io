@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@1,100;1,300&family=Sriracha&display=swap');
+*{
+	font-family: 'Itim', cursive;
+	font-size:30px;
+	margin: 0;
+    padding: 0;
+	line-height: 2.8rem;
+}
+.index{
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(img/bokeh.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: grid;
+	border: 0;
+	text-align: center;
+}
+.img{
+	margin-top: 50px;
+	display: block;
+}
+.text{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+p.effect{
+	white-space: pre;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.choice a{
+	padding: 10px 40px;
+	font-size: 1rem;
+	text-decoration: none;
+	color: #000000;
+	left: 50px;
+}
+.choice li:hover{
+	background-color:#B2FFF8;
+	border-radius: 25px;
+	border-color: #F8C826;
+	transition: 0.2s all linear;
+	transform: scale(1.2);
+	box-shadow: 0 0 20px 10px #B2FFF8;
+}
+
+span{
+	opacity: 0;
+	transition: all 0.4 ease;
+	transform: translateY(50px);
+
+}
+span.fade{
+	opacity: 1;
+	transform: translateY(0px);
+}
